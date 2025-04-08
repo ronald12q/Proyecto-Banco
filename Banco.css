@@ -1,10 +1,9 @@
 body {
     background-color: #f8f9fa;
-    font-family: 'Press Start 2P', cursive;
-    background-size: cover;
-    background-position: center;
+    font-family: 'Press Start 2P', sans-serif;
     min-height: 100vh;
-   
+    
+    
     
    
 }
@@ -14,17 +13,20 @@ como valor preterminado */
 
 #Titulo {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
     color: #ffcb05;
     text-shadow: 8px 8px 0 #2a75bb, -1px -1px 0 #2a75bb, 1px -1px 0 #2a75bb, -1px 1px 0 #2a75bb, 1px 1px 0 #2a75bb;
+   
 }
 
 .lead{
     color: #b6b6b6;
     text-shadow: none;
+    font-size: 25px;
+    
 }
 
-#pin-display {
+#pin-contenedor{
     font-size: 45px;
     letter-spacing: 25px;
     color: #0f3492;
@@ -32,6 +34,9 @@ como valor preterminado */
     border-radius: 10px;
     display: inline-block;
     min-width: 200px;
+    background-color: rgba(215, 215, 215, 0.8);
+    margin: 30px  auto;
+    
     
 }
 
