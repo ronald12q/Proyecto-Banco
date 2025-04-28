@@ -1,5 +1,5 @@
 
-/* esperamos a que todo este cargado para ejecutar el codigo*/ 
+/* esperamos a que todo este cargado para ejecutar el codigo osea el dom */ 
 document.addEventListener('DOMContentLoaded', function() {
     // Seleccionar todos los botones con atributo link
     const buttons = document.querySelectorAll('[link]');
