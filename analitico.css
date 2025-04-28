@@ -10,14 +10,12 @@
     --color-texto-secundario: #6c757d;
 }
 
-/* Estilos generales */
 body {
     font-family: 'Gidole', sans-serif;
     background-color: var(--color-fondo);
     color: var(--color-texto);
 }
 
-/* Cabecera */
 .cabecera {
     display: flex;
     align-items: center;
@@ -31,7 +29,6 @@ body {
     text-align: left;
     flex-grow: 1;
     position: relative;
-     /* Compensa el botón de atrás */
 }
 
 .btn-Atras {
@@ -57,7 +54,6 @@ body {
     color: var(--color-texto);
 }
 
-/* Sección de título */
 .seccion-titulo {
     background-color: var(--color-header);
     padding: 1rem;
@@ -74,7 +70,6 @@ body {
     color: var(--color-texto);
 }
 
-/* Zona del gráfico */
 .grafico-container {
     border-radius: 12px;
     overflow: hidden;
@@ -126,7 +121,6 @@ body {
 .servicios-color { background-color: var(--color-servicios); }
 .saldo-color { background-color: var(--color-saldo); }
 
-/* Tarjetas */
 .tarjetas-container {
     margin-top: 1.5rem;
 }
@@ -167,4 +161,3 @@ body {
     color: var(--color-texto-secundario);
     font-size: 0.9rem;
 }
-

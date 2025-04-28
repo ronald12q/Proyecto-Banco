@@ -2,31 +2,23 @@ body {
     background-color: #f8f9fa;
     font-family: 'Press Start 2P', sans-serif;
     min-height: 100vh;
-    
-    
-    
-   
 }
-
-/** font family press star 2p lo definimos para todos los elementos por esa razon lo ponemos en el body
-como valor preterminado */
 
 #Titulo {
     text-align: center;
-    margin-top: 70px;
+    margin-top: 25px;
     color: #ffcb05;
-    text-shadow: 8px 8px 0 #2a75bb, -1px -1px 0 #2a75bb, 1px -1px 0 #2a75bb, -1px 1px 0 #2a75bb, 1px 1px 0 #2a75bb;
-   
+    text-shadow: 6px 5px 0 #2a75bb, -1px -1px 0 #2a75bb, 1px -1px 0 #2a75bb, -1px 1px 0 #2a75bb, 1px 1px 0 #2a75bb;
 }
 
-.lead{
+.lead {
     color: #b6b6b6;
     text-shadow: none;
     font-size: 25px;
-    
+    margin: 25px;
 }
 
-#pin-contenedor{
+#pin-contenedor {
     font-size: 45px;
     letter-spacing: 25px;
     color: #0f3492;
@@ -35,9 +27,8 @@ como valor preterminado */
     display: inline-block;
     min-width: 200px;
     background-color: rgba(215, 215, 215, 0.8);
-    margin: 30px  auto;
-    
-    
+    margin: 30px auto;
+    text-align: center;
 }
 
 .contenedor-botones {
@@ -47,7 +38,7 @@ como valor preterminado */
     border-radius: 15px;
     padding: 20px;
     max-width: 500px;
-    margin: 0 auto;
+    margin: inherit;
 }
 
 .boton {
@@ -70,11 +61,12 @@ como valor preterminado */
 
 .btn-primary:hover {
     background-color: #828282 !important;
-    transform: scale(1.05);
+    transform: scale(1.1);
 }
 
 .btn-secondary {
     background-color: #cc0000 !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 .btn-secondary:hover {
@@ -82,3 +74,32 @@ como valor preterminado */
     transform: scale(1.05);
 }
 
+@media (max-width: 576px) {
+    #Titulo h1 {
+        font-size: 1.8rem;
+    }
+    
+    #Titulo h2 {
+        font-size: 1.5rem;
+    }
+    
+    .lead {
+        font-size: 1rem;
+    }
+    
+    #pin-contenedor {
+        font-size: 2rem;
+        letter-spacing: 15px;
+        min-width: 150px;
+    }
+    
+    .boton {
+        width: 70px;
+        height: 60px;
+        font-size: 1.2rem;
+    }
+    
+    .contenedor-botones {
+        padding: 15px;
+    }
+}
